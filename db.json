@@ -1,0 +1,82 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "titulo": "Figura de colección Kakashi Hatake",
+      "descripcion": "$299.00",
+      "url": "https://ss639.liverpool.com.mx/xl/1128872686.jpg"
+    },
+    {
+      "id": "2",
+      "titulo": "Figura de colección Sasuke Uchiha",
+      "descripcion": "$349.00",
+      "url": "https://ss639.liverpool.com.mx/xl/1127985762.jpg"
+    },
+    {
+      "id": "3",
+      "titulo": "Figura de colección Namikaze Minato",
+      "descripcion": "$299.00",
+      "url": "https://ss639.liverpool.com.mx/xl/1139598977.jpg"
+    },
+    {
+      "id": "4",
+      "titulo": "Figura de colección Itachi Uchiha",
+      "descripcion": "$349.00",
+      "url": "https://ss639.liverpool.com.mx/xl/1139598985.jpg"
+    },
+    {
+      "id": "5",
+      "titulo": "Figura de colección Naruto Uzumaki",
+      "descripcion": "$399.00",
+      "url": "https://ss639.liverpool.com.mx/xl/1127983140.jpg"
+    },
+    {
+      "id": "6",
+      "titulo": "Figura de acción Kakashi Hatake",
+      "descripcion": "$499.00",
+      "url": "https://ss639.liverpool.com.mx/xl/1125262887.jpg"
+    },
+    {
+      "id": "7",
+      "titulo": "Figura de acción Sasuke Uchiha",
+      "descripcion": "$599.00",
+      "url": "https://ss639.liverpool.com.mx/xl/1139610535.jpg.jpg"
+    },
+    {
+      "id": "8",
+      "titulo": "Figura de acción Sasori",
+      "descripcion": "$549.00",
+      "url": "https://ss639.liverpool.com.mx/xl/1139610551.jpg"
+    },
+    {
+      "id": "9",
+      "titulo": "Figura de acción Naruto Uzumaki",
+      "descripcion": "$649.00",
+      "url": "https://ss639.liverpool.com.mx/xl/1139610659.jpg.jpg"
+    },
+    {
+      "id": "10",
+      "titulo": "Figura Playmobil Kisame",
+      "descripcion": "$99.00",
+      "url": "https://ss424.liverpool.com.mx/xl/1132346221.jpg"
+    },
+    {
+      "id": "11",
+      "titulo": "Figura Playmobil Jiraiya",
+      "descripcion": "$109.00",
+      "url": "https://ss424.liverpool.com.mx/xl/1140139099.jpg"
+    },
+    {
+      "id": "12",
+      "titulo": "Figura Playmobil Kankuro",
+      "descripcion": "$109.00",
+      "url": "https://ss424.liverpool.com.mx/xl/1140139153.jpg"
+    },
+    {
+      "id": "13",
+      "titulo": "Figura de colección Naruto Uzumaki",
+      "descripcion": "$249.00",
+      "url": "https://ss639.liverpool.com.mx/xl/1139610667_1p.jpg"
+    }
+  ]
+}
