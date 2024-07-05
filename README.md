@@ -1,6 +1,6 @@
 # Alura Geek
 
-![Alura Geek]<img src="![https://upload.wikimedia.org/wikipedia/commons/c/c9/Naruto_logo.svg]" alt="Alura Geek Logo" width="400" height="200">
+![Alura Geek](https://upload.wikimedia.org/wikipedia/commons/c/c9/Naruto_logo.svg | width=400)
 
 Alura Geek es un proyecto de e-commerce desarrollado como parte del programa Oracle ONE de Alura y Oracle. Este proyecto simula una tienda en línea especializada en figuras coleccionables de Naruto, permitiendo a los usuarios navegar, buscar, agregar, editar y eliminar productos.
 
