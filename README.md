@@ -1,6 +1,6 @@
 # Alura Geek
 
-![Alura Geek](https://upload.wikimedia.org/wikipedia/commons/c/c9/Naruto_logo.svg)
+![Alura Geek]<img src="![URL_DE_TU_IMAGEN](https://upload.wikimedia.org/wikipedia/commons/c/c9/Naruto_logo.svg)" alt="Alura Geek Logo" width="400" height="200">
 
 Alura Geek es un proyecto de e-commerce desarrollado como parte del programa Oracle ONE de Alura y Oracle. Este proyecto simula una tienda en línea especializada en figuras coleccionables de Naruto, permitiendo a los usuarios navegar, buscar, agregar, editar y eliminar productos.
 
@@ -39,3 +39,17 @@ El proyecto Alura Geek es una tienda en línea dedicada a figuras coleccionables
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/fernando-hess/alura-geek.git
+
+2. Navega al directorio del proyecto:
+
+    cd alura-geek
+
+3. Instala JSON Server globalmente (si no lo tienes instalado):
+
+    npm install -g json-server
+
+4. Inicia el servidor JSON:
+
+    json-server --watch db.json
+
+5. Abre index.html en tu navegador para ver la aplicación funcionando.
