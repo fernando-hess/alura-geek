@@ -2,8 +2,7 @@
 
 ![Alura Geek](https://upload.wikimedia.org/wikipedia/commons/c/c9/Naruto_logo.svg)
 
-
-Alura Geek es un proyecto de e-commerce desarrollado como parte del programa Oracle ONE de Alura y Oracle. Este proyecto simula una tienda en línea especializada en figuras coleccionables de Naruto, permitiendo a los usuarios navegar, buscar, agregar, editar y eliminar productos.
+Este proyecto implementa un CRUD (Crear, Leer, Actualizar, Eliminar) para gestionar productos. Permite agregar nuevos productos con nombre, precio y URL de imagen, así como eliminar productos existentes.
 
 ## Tabla de Contenidos
 
@@ -15,17 +14,18 @@ Alura Geek es un proyecto de e-commerce desarrollado como parte del programa Ora
 
 ## Descripción
 
-El proyecto Alura Geek es una tienda en línea dedicada a figuras coleccionables de Naruto. Los usuarios pueden explorar una variedad de figuras, agregarlas a su carrito y realizar compras simuladas. Además, los administradores pueden gestionar el catálogo de productos mediante funcionalidades CRUD (Crear, Leer, Actualizar, Eliminar).
+Alura Geek es un proyecto que proporciona una interfaz para agregar y eliminar productos de manera sencilla. Está diseñado para ser utilizado como un panel de administración para manejar inventarios de productos.
 
 ## Características
 
-- Listado de figuras coleccionables de Naruto
-- Búsqueda de productos
-- Detalles de productos
-- Carrito de compras
-- Formulario para agregar nuevas figuras
-- Funcionalidad para editar y eliminar figuras existentes
-- Simulación de API utilizando JSON
+- Interfaz sencilla para agregar productos nuevos
+- Funcionalidad para eliminar productos existentes
+- Almacenamiento de productos en un archivo JSON (`db.json`)
+- Simulación de una API utilizando JSON Server
+
+## Figuras Coleccionables de Naruto
+
+El proyecto se centra en productos relacionados con figuras coleccionables de Naruto. Los usuarios pueden agregar nuevas figuras con detalles como nombre, precio y una URL de imagen que represente el producto.
 
 ## Tecnologías Utilizadas
 
@@ -54,3 +54,8 @@ El proyecto Alura Geek es una tienda en línea dedicada a figuras coleccionables
     json-server --watch db.json
 
 5. Abre index.html en tu navegador para ver la aplicación funcionando.
+
+## Uso
+
+Para agregar un nuevo producto, completa los campos de nombre, precio y URL de imagen y haz clic en el botón de agregar.
+Para eliminar un producto, haz clic en el botón de eliminar junto al producto que deseas eliminar en la lista.
