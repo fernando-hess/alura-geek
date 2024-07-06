@@ -21,9 +21,9 @@ async function crearProducto (evento) {
      await conexionAPI.enviarProducto(titulo, precioFormateado, url); 
     //await conexionAPI.enviarProducto(titulo, descripcion, url);
     
-    console.log("Se creo producto")
+    // console.log("Se creo producto")
 
-    window.location.href="../index.html"
+    // window.location.href="../index.html"
 
 }
 
