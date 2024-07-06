@@ -1,11 +1,10 @@
 async function listarProductos() {
-    // const conexion = await fetch("http://localhost:3001/productos");
+    
 
     const conexion = await fetch("https://my-json-server.typicode.com/fernando-hess/api-fake2/productos");
 
     const conexionConvertida = conexion.json();
 
-    //console.log(conexionConvertida);
 
     return conexionConvertida
 }
@@ -19,7 +18,7 @@ async function enviarProducto (titulo, descripcion, url) {
         method: "POST",
         headers: {"Content-type":"application/json"},
         body: JSON.stringify({
-            // lo del id iria aqui?
+            //
             
             id: nuevoId,
             titulo: titulo,
@@ -37,4 +36,3 @@ export const conexionAPI = {
     listarProductos, enviarProducto
 }
 
-//listarProductos();
