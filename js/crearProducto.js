@@ -23,7 +23,9 @@ async function crearProducto (evento) {
     
     // console.log("Se creo producto")
 
-    // window.location.href="../index.html"
+    //window.location.href="../index.html"
+
+    window.location.reload();
 
 }
 
