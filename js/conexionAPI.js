@@ -1,7 +1,7 @@
 async function listarProductos() {
     // const conexion = await fetch("http://localhost:3001/productos");
 
-    const conexion = await fetch("https://fake-api-two-fawn.vercel.app/productos");
+    const conexion = await fetch("https://my-json-server.typicode.com/fernando-hess/api-fake2/productos");
 
     const conexionConvertida = conexion.json();
 
@@ -15,7 +15,7 @@ async function enviarProducto (titulo, descripcion, url) {
     const productos = await listarProductos();
     const nuevoId = productos.length ? Math.max(...productos.map(producto => producto.id)) + 1 : 1;
 
-    const conexion = await fetch("https://fake-api-two-fawn.vercel.app/productos", {
+    const conexion = await fetch("https://my-json-server.typicode.com/fernando-hess/api-fake2/productos", {
         method: "POST",
         headers: {"Content-type":"application/json"},
         body: JSON.stringify({
