@@ -8,7 +8,7 @@ function crearCard (titulo, descripcion, url) {
     producto.className = "producto";
 
     producto.innerHTML = `<div class="producto__info">
-                            <img class="producto__imagen" src="${url}" alt="Nombre del Producto">
+                            <img class="producto__imagen" src="${url}" alt="Imagen del Producto">
                             <h4 class="producto__nombre">${titulo}</h4>
                         </div>
                         <div class="producto__accion">
