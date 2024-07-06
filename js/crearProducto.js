@@ -12,14 +12,18 @@ async function crearProducto (evento) {
 
     // prueba
     function formatearPrecio(precio) {
-        return new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN' }).format(precio);
-    }
+         return new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN' }).format(precio);
+     }
+
+
     const precioFormateado = formatearPrecio(descripcion);
 
-    await conexionAPI.enviarProducto(titulo, precioFormateado, url);
+     await conexionAPI.enviarProducto(titulo, precioFormateado, url); 
     //await conexionAPI.enviarProducto(titulo, descripcion, url);
     
+    console.log("Se creo producto")
 
+    window.location.href="../index.html"
 
 }
 
@@ -52,5 +56,3 @@ document.querySelector('.productos__container').addEventListener('click', (event
         }
     }
 });
-
-

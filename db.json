@@ -77,6 +77,66 @@
       "titulo": "Figura de colección Naruto Uzumaki",
       "descripcion": "$249.00",
       "url": "https://ss639.liverpool.com.mx/xl/1139610667_1p.jpg"
+    },
+    {
+      "id": "1081",
+      "titulo": "Madara",
+      "descripcion": "50000",
+      "url": "https://ss639.liverpool.com.mx/xl/1150882989.jpg"
+    },
+    {
+      "id": "2799",
+      "titulo": "naru",
+      "descripcion": "$777.00",
+      "url": "https://m.media-amazon.com/images/I/51U2MgRasuL.__AC_SX300_SY300_QL70_ML2_.jpg"
+    },
+    {
+      "id": "f4aa",
+      "titulo": "waeawf",
+      "descripcion": "$555.00",
+      "url": "http://localhost:3001/productos"
+    },
+    {
+      "id": "b99a",
+      "titulo": "kokun",
+      "descripcion": "$NaN",
+      "url": "http://localhost:3001/productos"
+    },
+    {
+      "id": "2d7a",
+      "titulo": "ee",
+      "descripcion": "$4,000.00",
+      "url": "https://m.media-amazon.com/images/I/51U2MgRasuL.__AC_SX300_SY300_QL70_ML2_.jpg"
+    },
+    {
+      "id": "fbe4",
+      "titulo": "BRUCE",
+      "descripcion": "$777.00",
+      "url": "https://m.media-amazon.com/images/I/51U2MgRasuL.__AC_SX300_SY300_QL70_ML2_.jpg"
+    },
+    {
+      "id": "efb2",
+      "titulo": "",
+      "descripcion": "$0.00",
+      "url": ""
+    },
+    {
+      "id": "cb30",
+      "titulo": "",
+      "descripcion": "$0.00",
+      "url": ""
+    },
+    {
+      "id": "0a22",
+      "titulo": "",
+      "descripcion": "$0.00",
+      "url": ""
+    },
+    {
+      "id": "d1f9",
+      "titulo": "",
+      "descripcion": "$0.00",
+      "url": ""
     }
   ]
 }
