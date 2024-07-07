@@ -1,6 +1,8 @@
 # Alura Geek
 
-![Alura Geek](https://upload.wikimedia.org/wikipedia/commons/c/c9/Naruto_logo.svg)
+<p align="center" >
+     <img width="600" src="./assets/Naruto_logo.svg.png">
+</p>
 
 Este proyecto implementa un CRUD (Crear, Leer, Actualizar, Eliminar) para gestionar productos. Permite agregar nuevos productos con nombre, precio y URL de imagen, así como eliminar productos existentes.
 
@@ -56,6 +58,10 @@ El proyecto se centra en productos relacionados con figuras coleccionables de Na
 5. Abre index.html en tu navegador para ver la aplicación funcionando.
 
 ## Uso
+
+<p align="center" >
+     <img width="600" src="./assets/Alurageek1.png">
+</p>
 
 Para agregar un nuevo producto, completa los campos de nombre, precio y URL de imagen y haz clic en el botón de agregar.
 Para eliminar un producto, haz clic en el botón de eliminar junto al producto que deseas eliminar en la lista.
