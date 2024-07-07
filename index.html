@@ -54,9 +54,9 @@
                 <div class="formulario__container">
                         <h3 class="formulario__titulo">Agregar producto:</h3>
                         <form class="formulario__producto" name="form" data-formulario>
-                            <input class="formulario__input" type="text" name="nombre" placeholder="Nombre..." data-titulo>
-                            <input class="formulario__input" type="text" name="precio" placeholder="Precio..." data-descripcion>
-                            <input class="formulario__input" type="text" name="imagen" placeholder="URL de la Imagen..." data-url>
+                            <input class="formulario__input" type="text" name="nombre" maxlength="40" required placeholder="Nombre..." data-titulo>
+                            <input class="formulario__input" type="number" name="precio" required placeholder="Precio..." data-descripcion>
+                            <input class="formulario__input" id="image-url" type="text" name="imagen" required placeholder="URL de la Imagen..." data-url>
                             <div class="botones">
                                 <button type="submit" class="formulario__enviar">Agregar</button>
                                 <button type="reset" class="formulario__reset">Limpiar</button>
@@ -76,6 +76,8 @@
 
     <script src="./js/mostrarProductos.js" type="module"></script>
     <script src="./js/crearProducto.js" type="module"></script>
+
+   
 
 </body>
 </html>

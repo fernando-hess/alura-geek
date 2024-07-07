@@ -133,6 +133,11 @@ section.productos {
     border-radius: 5px;
     max-width: 100%;
     width: 175px;
+
+    /* prueba */
+    max-height: 235px; 
+    width: auto; 
+    height: auto; 
 }
 
 .producto__nombre {
@@ -142,6 +147,13 @@ section.productos {
     line-height: 1.5;
     margin: 0;
     margin-top: 5px;
+}
+
+.producto__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .producto__borrar {
@@ -228,6 +240,10 @@ section.productos {
     background-color: var(--color-main);
     color: white;
     border: 2px solid var(--color-main);
+}
+
+.formulario__enviar:hover {
+    color: #f3c996;
 }
 
 .formulario__reset {
