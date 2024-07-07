@@ -165,11 +165,13 @@ section.productos {
     width: 50px;
     height: 50px;
     /* padding: 0px 12px; */
-    transition: transform .4s ease;
+    transition: all .2s ease;
 }
 
 .producto__accion button:hover {
     transform: scale(1.1);
+    background-color: #3c39f9;
+    border-color: #3c38ff;
 }
 
 .fa-trash-can {
@@ -220,7 +222,16 @@ section.productos {
     letter-spacing: 1px;
     color: #160036;
     font-weight: 700;
+    color: #0005a4;
 }
+
+.formulario__input:focus {
+    border-color: var(--color-secundario); 
+    box-shadow: 0 0 5px rgba(0, 7, 207, 0.5); /* Ejemplo de sombra al recibir foco */
+    outline: none; /* Evitar el resaltado predeterminado */
+    background-color: rgba(157, 160, 232, 0.5);
+}
+
 
 .botones {
     display: flex;
@@ -234,6 +245,7 @@ section.productos {
     width: 150px;
     border-radius: 15px;
     letter-spacing: 2px;
+    transition: all 0.5s ease;
 }
 
 .formulario__enviar {
@@ -243,8 +255,11 @@ section.productos {
 }
 
 .formulario__enviar:hover {
-    color: #f39f96;
-    background-color: #ff9717;
+    color: #ffffff;
+    background-color: #ed8200;
+    transform: scale(1.05);
+    letter-spacing: 3px;
+    border-color: #ed8200;
 }
 
 .formulario__reset {
@@ -253,8 +268,11 @@ section.productos {
 }
 
 .formulario__reset:hover {
-    background-color: var(--color-main);
+    background-color: #ed8200;
     color: white;
+    transform: scale(1.05);
+    letter-spacing: 3px;
+    border-color: #ed8200;
 }
 
 /* Sección Footer */
