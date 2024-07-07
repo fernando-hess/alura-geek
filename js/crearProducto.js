@@ -14,7 +14,7 @@ async function crearProducto (evento) {
     const imageKeywords = /(images?|photos?)/;
 
     if (!imageUrlPattern.test(url2) && !imageKeywords.test(url2)) {
-        alert('La URL ingresada no es válida. Por favor, ingrese una URL de imagen válida.');
+        alert('La URL ingresada no es válida! Por favor, ingresa una URL de imagen válida.');
         return; // Deteniene la ejecución si la url no es valida
     } else {
     const titulo = document.querySelector("[data-titulo]").value;
